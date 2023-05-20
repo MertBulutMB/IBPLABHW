@@ -14,7 +14,7 @@
     </tr>
 
     <?php
-    $conn = mysqli_connect("localhost", "root", "", "studentdb");
+    $conn = mysqli_connect("localhost", "root", "other", "studentdb");
     $sql = "SELECT * FROM students;";
     $result = mysqli_query($conn, $sql);
 
